@@ -48,9 +48,7 @@ Sort the DataFrame values by "date".
 
 Plot the results by using the DataFrame plot method, as the following image shows:
 
-![plot](file://Users/jessicaborbon/Dropbox/Screenshots/Screenshot 2024-06-11 at 7.21.10 PM.png)
-
-<img src="file:///Users/jessicaborbon/Dropbox/Screenshots/Screenshot 2024-06-11 at 7.21.10 PM.png" alt="plot" />
+![plot](<Screenshot 2024-06-11 at 7.21.10 PM.png>)
 
 A screenshot depicts the plot.
 Use Pandas to print the summary statistics for the precipitation data.
@@ -77,6 +75,8 @@ Plot the results as a histogram with bins=12, as the following image shows:
 
 A screenshot depicts the histogram.
 Close your session.
+ 
+ ![plot](<Screenshot 2024-06-11 at 10.55.44 PM.png>)
 
 Part 2: Design Your Climate App
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
