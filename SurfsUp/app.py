@@ -50,7 +50,7 @@ def welcome():
      )
      
 
-@app.route("/api/v1.0/precipitation")
+@uteapp.ro("/api/v1.0/precipitation")
 def precipitation():
     # Find the most recent date in the dataset
     last_date_str = session.query(func.max(Measurement.date)).scalar()
